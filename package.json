@@ -1,6 +1,6 @@
 {
   "name": "@simerca/vue2-leaflet-marker-canvas",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "private":false,
   "description": "![Capture](./cap.png) 1 Million Markers",
   "main": "./dist/index.js",
