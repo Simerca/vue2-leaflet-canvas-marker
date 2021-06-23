@@ -2,7 +2,7 @@
   "name": "@simerca/vue2-leaflet-marker-canvas",
   "version": "1.0.0",
   "description": "![Capture](./cap.png) 1 Million Markers",
-  "main": "index.js",
+  "main": "src/main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
