@@ -1,23 +1,25 @@
 ![Capture](./cap.png)
 1 Million Markers
 
-# Installation 
+## Installation 
+[npm package](https://www.npmjs.com/package/@simerca/vue2-leaflet-marker-canvas)
+
 `npm i @simerca/vue2-leaflet-canvas-marker`
 
-# Use
-
+## Use
 
 ```html
 <template>
-<LMap>
-    <LTileLayer :url="https://tile.openstreetmap.org/{z}/{x}/{y}.png">
-    <LCanvasMarker :markers="markers"/>
-</LMap>
+    <LMap>
+        <LTileLayer :url="https://tile.openstreetmap.org/{z}/{x}/{y}.png">
+        <LCanvasMarker :markers="markers"/>
+    </LMap>
 </template>
 ```
 
 ```js
 import L from leaflet;
+import {LMap, LTileLayer} from 'vue2-leaflet';
 import {LCanvasMarker} from 'vue2-leaflet-canvas-marker';
 export default {
     computed:{
@@ -37,6 +39,8 @@ export default {
         }
     }
     components:{
+        LMap,
+        LTileLayer,
         LCanvasMarker
     },
 }
