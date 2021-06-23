@@ -66,11 +66,6 @@ export default {
   },
   mounted() {
     this.doJob();
-    // ciLayer.addMarker(this.mapObject)
-    // console.log(ciLayer);
-
-    // this.parentContainer.addLayer(this, !this.visible);
-
     // Adds a layer
     this.ready = true;
     this.$nextTick(() => {
@@ -98,11 +93,7 @@ export default {
       this.mapObject = L.canvasIconLayer({}).addTo(
         this.$parent.$el.__vue__.mapObject
       );
-      let markers = [];
-      this.markers.forEach((element) => {
-        markers.push(element);
-      });
-      this.mapObject.addLayers(markers);
+      this.mapObject.addLayers(this.markers);
       DomEvent.on(this.mapObject, this.$listeners);
       this.debouncedLatLngSync = debounce(this.latLngSync, 100);
       this.mapObject.on("move", this.debouncedLatLngSync);
