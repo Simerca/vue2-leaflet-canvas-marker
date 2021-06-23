@@ -1,5 +1,15 @@
 ![Capture](./cap.png)
 1 Million Markers
+## Before read
+I have use two scripts for initialize my own Vue components.
+
+Thank to :
+- https://github.com/eJuke/Leaflet.Canvas-Markers
+- https://github.com/voluntadpear/vue-choropleth
+
+## Dependencies
+- `vue2-leaflet`
+- `leaflet`
 
 ## Installation 
 [npm package](https://www.npmjs.com/package/@simerca/vue2-leaflet-marker-canvas)
