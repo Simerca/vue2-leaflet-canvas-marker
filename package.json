@@ -1,7 +1,7 @@
 {
-  "name": "vue2-leaflet-marker-canvas",
+  "name": "@simerca/vue2-leaflet-marker-canvas",
   "version": "1.0.0",
-  "description": "",
+  "description": "![Capture](./cap.png) 1 Million Markers",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,5 +11,14 @@
   "dependencies": {
     "leaflet": "^1.7.1",
     "vue2-leaflet": "^2.7.0"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Simerca/vue2-leaflet-canvas-marker.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Simerca/vue2-leaflet-canvas-marker/issues"
+  },
+  "homepage": "https://github.com/Simerca/vue2-leaflet-canvas-marker#readme"
 }
