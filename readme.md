@@ -14,7 +14,7 @@ Thank to :
 ## Installation 
 [npm package](https://www.npmjs.com/package/@simerca/vue2-leaflet-marker-canvas)
 
-`npm i @simerca/vue2-leaflet-canvas-marker`
+`npm i @simerca/vue2-leaflet-marker-canvas`
 
 ## Use
 
